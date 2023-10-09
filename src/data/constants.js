@@ -230,7 +230,8 @@ export const projects = [
       "https://raw.githubusercontent.com/batuhanayazz/AquastockWeb2/main/Aquastock.png",
     tags: ["HTLM", "CSS", "Javascript", "MongoDb", "Node Js", "Express Js"],
     category: "web-app",
-    github: "https://github.com/batuhanayazz/AquastockWeb2",
+    hasCode: true,
+    githubProjectLink: "https://github.com/batuhanayazz/AquastockWeb2",
     webapp: "https://batuhanayazz.github.io/web2-aquastock/",
     member: [
       {
@@ -249,8 +250,30 @@ export const projects = [
     image: "",
     tags: ["Test"],
     category: "android-app",
+    hasCode: false,
+    hasUI: false,
     githubProjectLink: "",
-    uiLink: "",
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "ELECTUS PROJECT - LOGO DESIGN",
+    date: "",
+    description:
+      "Logo design for Electus Project, a company that electiricity and solar energy. The logo is designed to be used in different colors and backgrounds. The logo is designed in Adobe Illustrator and Adobe Photoshop.",
+    image:
+      "https://drive.google.com/uc?export=view&id=12Qfjw30F-hIYmKaNUiCpzLQvX0JwPi0T",
+    tags: ["Adobe illustrator", "Adobe photoshop"],
+    category: "others",
+    githubProjectLink: "https://github.com/batuhanayazz/AquastockWeb2",
+    webapp: "https://batuhanayazz.github.io/web2-aquastock/",
     hasUI: true,
     member: [
       {

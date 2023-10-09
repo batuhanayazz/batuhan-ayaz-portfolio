@@ -206,7 +206,7 @@ const index = ({ openModal, setOpenModal }) => {
             }}
             onClick={() => setOpenModal({ state: false, project: null })}
           />
-          <Image src={project?.image} />
+          <Image src={project?.image} type="image/svg+xml" />
           <Title>{project?.title}</Title>
           <Date>{project.date}</Date>
           <Tags>
@@ -244,17 +244,23 @@ const index = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             {project?.hasUI ? (
-              <Button dull href={project?.githubProjectLink} target="new">
-                UI
-              </Button>
+              <></>
             ) : (
               <>
-                <Button dull href={project?.githubProjectLink} target="new">
-                  View Code
-                </Button>
-                <Button href={project?.webapp} target="new">
-                  View Live App
-                </Button>
+                {project?.hasCode ? (
+                  <>
+                    <Button dull href={project?.githubProjectLink} target="new">
+                      View Code
+                    </Button>
+                    <Button href={project?.webapp} target="new">
+                      View Live App
+                    </Button>
+                  </>
+                ) : (
+                  <Button href={project?.webapp} target="new">
+                    View Live App
+                  </Button>
+                )}
               </>
             )}
           </ButtonGroup>
