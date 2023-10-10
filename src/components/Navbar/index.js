@@ -88,14 +88,6 @@ const Navbar = () => {
             >
               Projects
             </MobileLink>
-            <MobileLink
-              href="#contact"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Contact
-            </MobileLink>
             <GitHubButton
               style={{
                 padding: "10px 16px",
