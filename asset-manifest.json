@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/batuhan-ayaz-portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/batuhan-ayaz-portfolio/static/js/main.0fb2d57f.js",
+    "static/media/HeroImage.png": "/batuhan-ayaz-portfolio/static/media/HeroImage.ec3d687b1696dc7ee7be.png",
+    "static/media/AyazLogo.svg": "/batuhan-ayaz-portfolio/static/media/AyazLogo.5ad1987d26ad876e0259d84d8ca409d5.svg",
+    "index.html": "/batuhan-ayaz-portfolio/index.html",
+    "main.bf538fe7.css.map": "/batuhan-ayaz-portfolio/static/css/main.bf538fe7.css.map",
+    "main.0fb2d57f.js.map": "/batuhan-ayaz-portfolio/static/js/main.0fb2d57f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.0fb2d57f.js"
+  ]
+}
