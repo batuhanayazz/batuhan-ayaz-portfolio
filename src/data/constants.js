@@ -222,7 +222,7 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
-    title: "Aquastock",
+    title: "Aquastock - School project",
     date: "",
     description:
       "Welcome to AquaStock, the website for aquarium store owners to keep track of their inventory and manage their store's stock.To become a member, simply on the homepage follow under Become a Member prompts to create an account. Once you are a member, you can log in and access the fish catalogs.Once logged in, you can browse through the catalogs and select the fish that you have in your store. These fish will be added to your stock page, where you can update the quantity of each fish and remove any that have run out.",
@@ -231,6 +231,7 @@ export const projects = [
     tags: ["HTLM", "CSS", "Javascript", "MongoDb", "Node Js", "Express Js"],
     category: "web-app",
     hasCode: true,
+    hasUI: false,
     githubProjectLink: "https://github.com/batuhanayazz/AquastockWeb2",
     webapp: "https://batuhanayazz.github.io/web2-aquastock/",
     member: [
@@ -263,8 +264,31 @@ export const projects = [
     ],
   },
   {
+    id: 2,
+    title: "Electus - Website en Design",
+    date: "",
+    description:
+      "Website and design for Electus Project, a company that electiricity and solar energy.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1MLi2M4NvVXziYNV-gRQ2A1FqYthsG9nz",
+    tags: ["Wordpress"],
+    category: "web-app",
+    githubProjectLink: "",
+    webapp: "https://electusproject.be",
+    hasCode: false,
+    hasUI: false,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
+  {
     id: 3,
-    title: "ELECTUS PROJECT - LOGO DESIGN",
+    title: "Electus - Logo Design",
     date: "",
     description:
       "Logo design for Electus Project, a company that electiricity and solar energy. The logo is designed to be used in different colors and backgrounds. The logo is designed in Adobe Illustrator and Adobe Photoshop.",
@@ -274,6 +298,7 @@ export const projects = [
     category: "others",
     githubProjectLink: "https://github.com/batuhanayazz/AquastockWeb2",
     webapp: "https://batuhanayazz.github.io/web2-aquastock/",
+    hasCode: false,
     hasUI: true,
     member: [
       {
@@ -284,12 +309,50 @@ export const projects = [
       },
     ],
   },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    id: 4,
+    title: "Rooferdakwerken - Website en Design",
+    date: "",
+    description:
+      "Website and design for Rooferdakwerken, a company that roof repair.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1DWWSwey9OVd37y8T2TBPSAgtVXgzA4Cf",
+    tags: ["Wordpress"],
+    category: "web-app",
+    githubProjectLink: "",
+    webapp: "https://rooferdakwerken.be",
+    hasCode: false,
+    hasUI: false,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Rooferdakwerken - Logo Design",
+    date: "",
+    description:
+      "logo design for Rooferdakwerken, a company that roof repair. The logo is designed to be used in different colors and backgrounds. The logo is designed in Adobe Illustrator and Adobe Photoshop.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1bVPlbH4gQDzrCrecaP2Mj0pzGVaNntDg",
+    tags: ["Wordpress"],
+    category: "others",
+    githubProjectLink: "",
+    webapp: "https://rooferdakwerken.be",
+    hasCode: false,
+    hasUI: false,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
 ];
