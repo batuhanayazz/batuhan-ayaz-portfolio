@@ -340,7 +340,7 @@ export const projects = [
       "logo design for Rooferdakwerken, a company that roof repair. The logo is designed to be used in different colors and backgrounds. The logo is designed in Adobe Illustrator and Adobe Photoshop.",
     image:
       "https://drive.google.com/uc?export=view&id=1bVPlbH4gQDzrCrecaP2Mj0pzGVaNntDg",
-    tags: ["Wordpress"],
+    tags: ["Adobe illustrator", "Adobe photoshop"],
     category: "others",
     githubProjectLink: "",
     webapp: "https://rooferdakwerken.be",
