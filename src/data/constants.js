@@ -9,7 +9,8 @@ export const Bio = {
   description:
     "I am a passionate designer and web developer with an insatiable love for creativity and innovation.I was born with a natural curiosity and a desire to shape the digital world in a way that is both functional and aesthetically pleasing. ",
   github: "https://github.com/batuhanayazz",
-  resume: "",
+  resume:
+    "https://drive.google.com/file/d/1cAWb1VXTARXiaCue0hHZ6_zQnl6yb0mL/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
   twitter: "https://twitter.com/BatuhanSwazZ",
   insta: "https://www.instagram.com/batuswazz/",
@@ -244,26 +245,6 @@ export const projects = [
     ],
   },
   {
-    id: 1,
-    title: "Android App",
-    date: "",
-    description: "",
-    image: "",
-    tags: ["Test"],
-    category: "android-app",
-    hasCode: false,
-    hasUI: false,
-    githubProjectLink: "",
-    member: [
-      {
-        name: "Batuhan Ayaz",
-        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
-        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
-        github: "https://github.com/batuhanayazz",
-      },
-    ],
-  },
-  {
     id: 2,
     title: "Electus - Website en Design",
     date: "",
@@ -295,7 +276,7 @@ export const projects = [
     image:
       "https://drive.google.com/uc?export=view&id=12Qfjw30F-hIYmKaNUiCpzLQvX0JwPi0T",
     tags: ["Adobe illustrator", "Adobe photoshop"],
-    category: "others",
+    category: "designs",
     githubProjectLink: "https://github.com/batuhanayazz/AquastockWeb2",
     webapp: "https://batuhanayazz.github.io/web2-aquastock/",
     hasCode: false,
@@ -341,7 +322,7 @@ export const projects = [
     image:
       "https://drive.google.com/uc?export=view&id=1bVPlbH4gQDzrCrecaP2Mj0pzGVaNntDg",
     tags: ["Adobe illustrator", "Adobe photoshop"],
-    category: "others",
+    category: "designs",
     githubProjectLink: "",
     webapp: "https://rooferdakwerken.be",
     hasCode: false,
