@@ -326,7 +326,7 @@ export const projects = [
     githubProjectLink: "",
     webapp: "https://rooferdakwerken.be",
     hasCode: false,
-    hasUI: false,
+    hasUI: true,
     member: [
       {
         name: "Batuhan Ayaz",
