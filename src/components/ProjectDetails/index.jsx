@@ -247,7 +247,7 @@ const index = ({ openModal, setOpenModal }) => {
               <></>
             ) : (
               <>
-                {project?.hasCode ? (
+                {project?.hasCode && project?.hasLive ? (
                   <>
                     <Button dull href={project?.githubProjectLink} target="new">
                       View Code
@@ -256,6 +256,10 @@ const index = ({ openModal, setOpenModal }) => {
                       View Live App
                     </Button>
                   </>
+                ) : project?.hasCode ? (
+                  <Button dull href={project?.githubProjectLink} target="new">
+                    View Code
+                  </Button>
                 ) : (
                   <Button href={project?.webapp} target="new">
                     View Live App

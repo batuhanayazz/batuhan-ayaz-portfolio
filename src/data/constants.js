@@ -233,6 +233,7 @@ export const projects = [
     category: "web-app",
     hasCode: true,
     hasUI: false,
+    hasLive: true,
     githubProjectLink: "https://github.com/batuhanayazz/AquastockWeb2",
     webapp: "https://batuhanayazz.github.io/web2-aquastock/",
     member: [
@@ -318,7 +319,7 @@ export const projects = [
     title: "Rooferdakwerken - Logo Design",
     date: "",
     description:
-      "logo design for Rooferdakwerken, a company that roof repair. The logo is designed to be used in different colors and backgrounds. The logo is designed in Adobe Illustrator and Adobe Photoshop.",
+      "Logo design for Rooferdakwerken, a company that roof repair. The logo is designed to be used in different colors and backgrounds. The logo is designed in Adobe Illustrator and Adobe Photoshop.",
     image:
       "https://drive.google.com/uc?export=view&id=1bVPlbH4gQDzrCrecaP2Mj0pzGVaNntDg",
     tags: ["Adobe illustrator", "Adobe photoshop"],
@@ -327,6 +328,76 @@ export const projects = [
     webapp: "https://rooferdakwerken.be",
     hasCode: false,
     hasUI: true,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Top Clean - Website en Design",
+    date: "",
+    description: "Website and design for Top Clean, a cleaning company.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1SjL_XowNOTQqBV_SPxorHp7qDeswYWU2",
+    tags: ["Wordpress"],
+    category: "web-app",
+    githubProjectLink: "",
+    webapp: "https://topcleanbv.be",
+    hasCode: false,
+    hasUI: false,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    title: "Top Clean - Logo Design",
+    date: "",
+    description:
+      "Logo design for Top Clean, a cleaning company. The logo is designed to be used in different colors and backgrounds. The logo is designed in Adobe Illustrator and Adobe Photoshop.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1HybeN15-plhDuNyAy_VYKEQsKHamSeEz",
+    tags: ["Adobe illustrator", "Adobe photoshop"],
+    category: "designs",
+    githubProjectLink: "",
+    webapp: "https://rooferdakwerken.be",
+    hasCode: false,
+    hasUI: true,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Movie Booking App - School project",
+    date: "",
+    description:
+      "Movie Booking App is a web application that allows users to book movie tickets online. The application is designed to be user friendly and easy to use. The application is designed in Adobe XD and developed in React-native.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1ysSufdGWPCR-mfQ5nizi4n9AyY3lpcEf",
+    tags: ["Adobe photoshop", "Adobe XD", "React-native"],
+    category: "android-app",
+    githubProjectLink: "https://github.com/batuhanayazz/Movie_App",
+    webapp: "",
+    hasCode: true,
+    hasUI: false,
+    hasLive: false,
     member: [
       {
         name: "Batuhan Ayaz",
