@@ -33,7 +33,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <Logo style={{ width: "65px", height: "65px" }} />
+            <Logo style={{ width: "100px", height: "100px" }} />
           </a>
         </NavLogo>
         <MobileIcon>
