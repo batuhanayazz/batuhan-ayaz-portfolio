@@ -1,7 +1,7 @@
 {
   "name": "batuhan-ayaz-portfolio",
   "version": "0.1.0",
-  "homepage": "https://batuhanayazz.github.io/batuhan-ayaz-portfolio/",
+  "homepage": "https://ayazmedia.be",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
