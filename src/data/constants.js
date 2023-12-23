@@ -407,4 +407,83 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 9,
+    title: "Spotify Basic Clone - School project",
+    date: "",
+    description:
+      "Spotify Basic Clone is a web application that allows users to listen music online. The application is designed to be user friendly and easy to use. The application is designed in Adobe XD and developed in React-native.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1GQSmOYdBkCynCV0ZnWUpHZNvrnWIRbzi",
+    tags: ["Adobe photoshop", "Adobe XD", "React-native"],
+    category: "android-app",
+    githubProjectLink: "https://github.com/batuhanayazz/het-eenzaamste-lied",
+    webapp: "",
+    hasCode: true,
+    hasUI: false,
+    hasLive: false,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Explore Place App - School project",
+    date: "",
+    description:
+      "Simple app to explore places around you.Mostly working front-end.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1RJ757lR3OpYHKOHA1eGqNpjLWuv9WWAI",
+    tags: [
+      "Adobe photoshop",
+      "Adobe XD",
+      "React-native",
+      "Google Maps",
+      "Google Places",
+    ],
+    category: "android-app",
+    githubProjectLink: "https://github.com/batuhanayazz/React-Native-MapApp",
+    webapp: "",
+    hasCode: true,
+    hasUI: false,
+    hasLive: false,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
+  {
+    id: 11,
+    title: "Image Recognition App (Tenserflow) - School project",
+    date: "",
+    description:
+      "Image Recognition App is a web application that allows users to recognize images. The application is designed to be user friendly and easy to use. The application is designed in Adobe XD and developed in React-native.",
+    image:
+      "https://drive.google.com/uc?export=view&id=1MZTj9xo_LYqCDzEIjwDPLrx9FZUUQlca",
+    tags: ["Adobe photoshop", "Adobe XD", "React-native"],
+    category: "android-app",
+    githubProjectLink:
+      "https://github.com/batuhanayazz/prototype-image-recognition",
+    webapp: "",
+    hasCode: true,
+    hasUI: false,
+    hasLive: false,
+    member: [
+      {
+        name: "Batuhan Ayaz",
+        img: "https://avatars.githubusercontent.com/u/43605933?v=4",
+        linkedin: "https://www.linkedin.com/in/batuhan-ayaz-multimedia/",
+        github: "https://github.com/batuhanayazz",
+      },
+    ],
+  },
 ];
